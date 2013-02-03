@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.description = %q{RMagick is an interface between Ruby and ImageMagick.}
   s.authors = [%q{Tim Hunter}, %q{Omer Bar-or}, %q{Benjamin Thomas}, %q{Moncef Maiza}]
   s.email = %q{rmagick@rubyforge.org}
-  s.homepage = %q{http://rubyforge.org/projects/rmagick}
+  s.homepage = %q{https://github.com/rmagick/rmagick}
   s.files = Dir.glob('**/*')
   s.bindir = 'bin'
   s.executables = Dir.glob('bin/*').collect {|f| File.basename(f)}
